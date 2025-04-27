@@ -15,3 +15,9 @@ await VideoUtil.generateTXT("test.mp3", "test.txt");
 // txt to png (needs .env as OpenAI API key)
 await VideoUtil.generatePNG("test.txt", "test.png");
 ```
+
+## reference
+
+- [ffmpeg](https://www.ffmpeg.org/)
+- [openai-audiorecog](https://github.com/code4fukui/openai-audiorecog/)
+- [txt2img](https://github.com/code4fukui/txt2img/)
